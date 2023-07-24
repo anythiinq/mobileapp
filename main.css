@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+* {
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    color: white;
+}
+
+#navigation-top {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+#home-logo {
+    grid-row: 1 / 2;
+    width: 50px;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    grid-row: 0 / 1;
+}
+
+.homepage-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+.button {
+    border-radius: 25px;
+    background: #172330;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+}
+
+.button-img {
+    width: 80px;
+}
